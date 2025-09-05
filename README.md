@@ -48,3 +48,48 @@ pip install -r requirements.txt
 
 ### 3. Run the Streamlit App
 Streamlit run app.py
+
+---
+🧠 Model Details
+
+Architecture: GoogLeNet (torchvision.models.googlenet)
+
+Approach: Transfer learning — replaced the final fully-connected layer and trained on 3 custom classes
+
+Input size: 128 × 128 pixels
+
+Dataset: ~1,200 images (balanced: 400/class)
+
+Training environment: Google Colab with PyTorch
+
+---
+📌 Requirements
+
+Main dependencies:
+
+torch
+
+torchvision
+
+streamlit
+
+Pillow
+
+(See requirements.txt for the full list.)
+
+---
+🙌 Future Improvements
+
+🔼 Train on larger, more diverse datasets
+
+🌍 Deploy on Streamlit Cloud / Hugging Face Spaces
+
+📱 Build a mobile-friendly version
+
+⚡ Add more disease categories
+
+---
+👨‍💻 Author
+
+Saurav Sinha
+
