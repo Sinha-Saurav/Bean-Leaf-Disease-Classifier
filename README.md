@@ -10,11 +10,6 @@ This tool can help farmers and researchers quickly identify common bean leaf dis
 
 ---
 
-## 📹 Demo
-
-
----
-
 ## 🌍 Live Website
 URL - https://bean-leaf-disease-classifier.streamlit.app/ 
 
