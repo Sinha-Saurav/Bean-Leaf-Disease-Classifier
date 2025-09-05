@@ -26,12 +26,12 @@ URL - https://bean-leaf-disease-classifier.streamlit.app/
 
 ## 📂 Project Structure
 bean-leaf-classifier/
-│
-├── app.py # Streamlit app
-├── classname.txt # List of class names
-├── googlenet_model.pth # Trained model weights
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+-> app.py # Streamlit app
+-> classname.txt # List of class names
+-> googlenet_model.pth # Trained model weights
+-> requirements.txt # Python dependencies
+-> transfer_learning(CNN).pynb # Notebook
+-> README.md # Project documentation
 
 
 ---
